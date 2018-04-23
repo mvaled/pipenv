@@ -245,6 +245,9 @@ the current working directory when working on packages::
 
 Note that all sub-dependencies will get added to the ``Pipfile.lock`` as well.
 
+.. note:: Sub-dependencies are **not** added the ``Pipfile.lock`` if you leave
+		  the ``-e`` option.
+
 
 .. _environment_management:
 
